@@ -1,0 +1,36 @@
+{
+  "name": "Itinerário de Ônibus - Lins",
+  "short_name": "Itinerário Lins",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#50b96d",
+  "theme_color": "#f1f5f9",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/bus-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/icons/bus-64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/icons/bus-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/icons/bus-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/icons/bus-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

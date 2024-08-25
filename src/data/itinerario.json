@@ -1,0 +1,523 @@
+{
+  "itinerario": [
+    {
+      "linha": 1,
+      "nome": "CDHU",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:40" },
+          { "horario": "6:45" },
+          { "horario": "7:50" },
+          { "horario": "8:55" },
+          { "horario": "10:00" },
+          { "horario": "11:05" },
+          { "horario": "12:10" },
+          { "horario": "13:15" },
+          { "horario": "14:20" },
+          { "horario": "15:25" },
+          { "horario": "16:30" },
+          { "horario": "17:35" },
+          { "horario": "18:40" },
+          { "horario": "19:45" },
+          { "horario": "20:50" },
+          { "horario": "21:55" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:40" },
+          { "horario": "6:45" },
+          { "horario": "7:50" },
+          { "horario": "8:55" },
+          { "horario": "10:00" },
+          { "horario": "11:05" },
+          { "horario": "12:10" },
+          { "horario": "13:15" },
+          { "horario": "14:20" },
+          { "horario": "15:50" },
+          { "horario": "17:20" },
+          { "horario": "18:50" },
+          { "horario": "19:55" }
+        ],
+        "domingos": [
+          { "horario": "7:10" },
+          { "horario": "9:10" },
+          { "horario": "11:10" },
+          { "horario": "13:10" },
+          { "horario": "15:10" },
+          { "horario": "17:10" }
+        ]
+      }
+    },
+    {
+      "linha": 2,
+      "nome": "Parque das Flores",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:40" },
+          { "horario": "6:40" },
+          { "horario": "7:40" },
+          { "horario": "8:40" },
+          { "horario": "9:40" },
+          { "horario": "10:40" },
+          { "horario": "11:40" },
+          { "horario": "12:50" },
+          { "horario": "13:40" },
+          { "horario": "14:40" },
+          { "horario": "15:40" },
+          { "horario": "16:40" },
+          { "horario": "17:40" },
+          { "horario": "18:40" },
+          { "horario": "19:40" },
+          { "horario": "21:40" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:40" },
+          { "horario": "6:40" },
+          { "horario": "7:40" },
+          { "horario": "8:40" },
+          { "horario": "9:40" },
+          { "horario": "10:40" },
+          { "horario": "11:40" },
+          { "horario": "12:40" },
+          { "horario": "13:40" },
+          { "horario": "14:40" },
+          { "horario": "16:10" },
+          { "horario": "17:40" },
+          { "horario": "19:10" }
+        ],
+        "domingos": [
+          { "horario": "8:10" },
+          { "horario": "10:10" },
+          { "horario": "12:10" },
+          { "horario": "14:10" },
+          { "horario": "16:10" },
+          { "horario": "18:10" }
+        ]
+      }
+    },
+    {
+      "linha": 3,
+      "nome": "Cohab Cris",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:40" },
+          { "horario": "6:50" },
+          { "horario": "7:40" },
+          { "horario": "8:40" },
+          { "horario": "9:40" },
+          { "horario": "10:40" },
+          { "horario": "11:40" },
+          { "horario": "12:50" },
+          { "horario": "13:40" },
+          { "horario": "14:40" },
+          { "horario": "15:40" },
+          { "horario": "16:40" },
+          { "horario": "17:40" },
+          { "horario": "18:40" },
+          { "horario": "20:30" },
+          { "horario": "22:00" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:40" },
+          { "horario": "6:40" },
+          { "horario": "7:40" },
+          { "horario": "8:40" },
+          { "horario": "9:40" },
+          { "horario": "10:40" },
+          { "horario": "11:40" },
+          { "horario": "12:40" },
+          { "horario": "13:40" },
+          { "horario": "15:10" },
+          { "horario": "16:40" },
+          { "horario": "18:10" },
+          { "horario": "19:40" }
+        ],
+        "domingos": [
+          { "horario": "8:10" },
+          { "horario": "10:10" },
+          { "horario": "12:10" },
+          { "horario": "14:10" },
+          { "horario": "16:10" },
+          { "horario": "18:10" }
+        ]
+      }
+    },
+    {
+      "linha": 4,
+      "nome": "Junqueira",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:55" },
+          { "horario": "6:55" },
+          { "horario": "7:55" },
+          { "horario": "8:55" },
+          { "horario": "9:55" },
+          { "horario": "10:55" },
+          { "horario": "11:55" },
+          { "horario": "12:55" },
+          { "horario": "13:55" },
+          { "horario": "14:55" },
+          { "horario": "15:55" },
+          { "horario": "16:50" },
+          { "horario": "17:40" },
+          { "horario": "18:40" },
+          { "horario": "19:40" },
+          { "horario": "21:55" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:55" },
+          { "horario": "6:55" },
+          { "horario": "7:55" },
+          { "horario": "8:55" },
+          { "horario": "9:55" },
+          { "horario": "10:55" },
+          { "horario": "11:55" },
+          { "horario": "12:55" },
+          { "horario": "13:55" },
+          { "horario": "14:55" },
+          { "horario": "16:25" },
+          { "horario": "17:55" },
+          { "horario": "19:25" }
+        ],
+        "domingos": [
+          { "horario": "7:10" },
+          { "horario": "9:10" },
+          { "horario": "11:10" },
+          { "horario": "13:10" },
+          { "horario": "15:10" },
+          { "horario": "17:10" }
+        ]
+      }
+    },
+    {
+      "linha": 5,
+      "nome": "Pasetto / Bom Viver",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:40" },
+          { "horario": "6:40", "tags": ["fatec"] },
+          { "horario": "7:50" },
+          { "horario": "9:05" },
+          { "horario": "10:20" },
+          { "horario": "11:35", "tags": ["fatec"] },
+          { "horario": "12:50", "tags": ["fatec"] },
+          { "horario": "14:00" },
+          { "horario": "15:00" },
+          { "horario": "16:05" },
+          { "horario": "17:10" },
+          { "horario": "18:15", "tags": ["fatec"] },
+          { "horario": "19:20" },
+          { "horario": "20:25" },
+          { "horario": "21:30" },
+          { "horario": "22:20", "tags": ["fatec"] },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:40" },
+          { "horario": "6:45" },
+          { "horario": "7:50" },
+          { "horario": "8:55" },
+          { "horario": "10:00" },
+          { "horario": "11:05" },
+          { "horario": "12:10" },
+          { "horario": "13:15" },
+          { "horario": "14:20" },
+          { "horario": "15:50" },
+          { "horario": "17:20" },
+          { "horario": "18:50" },
+          { "horario": "19:50" }
+        ],
+        "domingos": [
+          { "horario": "7:10" },
+          { "horario": "9:10" },
+          { "horario": "11:10" },
+          { "horario": "13:10" },
+          { "horario": "15:10" },
+          { "horario": "17:10" }
+        ]
+      }
+    },
+    {
+      "linha": 6,
+      "nome": "Xingú",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:45" },
+          { "horario": "6:50", "tags": ["fatec", "bellagio"] },
+          { "horario": "7:55", "tags": ["bellagio"] },
+          { "horario": "10:05" },
+          { "horario": "11:10" },
+          { "horario": "12:15", "tags": ["fatec"] },
+          { "horario": "13:20" },
+          { "horario": "14:25" },
+          { "horario": "15:30", "tags": ["bellagio"] },
+          { "horario": "16:35", "tags": ["bellagio"] },
+          { "horario": "17:40", "tags": ["fatec"] },
+          { "horario": "18:45", "tags": ["fatec"] },
+          { "horario": "19:50" },
+          { "horario": "22:20", "tags": ["fatec"] },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:45" },
+          { "horario": "6:50", "tags": ["bellagio"] },
+          { "horario": "7:55", "tags": ["bellagio"] },
+          { "horario": "10:05" },
+          { "horario": "11:10" },
+          { "horario": "12:15" },
+          { "horario": "13:20" },
+          { "horario": "14:50" },
+          { "horario": "16:20" },
+          { "horario": "17:50" },
+          { "horario": "18:55" },
+          { "horario": "20:00" }
+        ],
+        "domingos": [
+          { "horario": "8:10" },
+          { "horario": "10:10" },
+          { "horario": "12:10" },
+          { "horario": "14:10" },
+          { "horario": "16:10" },
+          { "horario": "18:10" }
+        ]
+      }
+    },
+    {
+      "linha": 7,
+      "nome": "Labate",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "6:00" },
+          { "horario": "6:45", "tags": ["ventura"] },
+          { "horario": "7:30" },
+          { "horario": "8:15" },
+          { "horario": "9:15" },
+          { "horario": "10:15" },
+          { "horario": "11:15" },
+          { "horario": "12:15" },
+          { "horario": "13:15" },
+          { "horario": "14:15" },
+          { "horario": "15:15" },
+          { "horario": "16:30", "tags": ["ventura"] },
+          { "horario": "17:15" },
+          { "horario": "18:00" },
+          { "horario": "18:50" },
+          { "horario": "19:50" },
+          { "horario": "22:40" },
+          { "horario": "23:20" },
+          { "horario": "23:50", "tags": ["etec"], "especial": true }
+        ],
+        "sabados": [
+          { "horario": "5:45" },
+          { "horario": "6:45" },
+          { "horario": "7:45" },
+          { "horario": "8:30" },
+          { "horario": "9:45" },
+          { "horario": "10:30" },
+          { "horario": "11:15" },
+          { "horario": "12:15" },
+          { "horario": "13:15" },
+          { "horario": "14:15" },
+          { "horario": "15:15" },
+          { "horario": "16:45" },
+          { "horario": "18:15" }
+        ],
+        "domingos": null
+      }
+    },
+    {
+      "linha": 8,
+      "nome": "Santa Terezinha",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "6:00", "tags": ["cais"] },
+          { "horario": "6:50" },
+          { "horario": "7:50" },
+          { "horario": "8:50" },
+          { "horario": "9:50" },
+          { "horario": "10:50" },
+          { "horario": "11:50", "tags": ["cais"] },
+          { "horario": "12:50", "tags": ["cais"] },
+          { "horario": "13:40" },
+          { "horario": "14:40" },
+          { "horario": "15:40" },
+          { "horario": "16:40" },
+          { "horario": "17:40" },
+          { "horario": "18:45", "tags": ["cais"] },
+          { "horario": "19:50" },
+          { "horario": "21:15" },
+          { "horario": "23:20" },
+          { "horario": "23:50", "tags": ["etec"], "especial": true }
+        ],
+        "sabados": [
+          { "horario": "6:00", "tags": ["cais"] },
+          { "horario": "6:50" },
+          { "horario": "7:50" },
+          { "horario": "8:50" },
+          { "horario": "9:50" },
+          { "horario": "10:50" },
+          { "horario": "11:50", "tags": ["cais"] },
+          { "horario": "12:40", "tags": ["cais"] },
+          { "horario": "13:40" },
+          { "horario": "14:40" },
+          { "horario": "16:10" },
+          { "horario": "17:40", "tags": ["cais"] },
+          { "horario": "19:30" }
+        ],
+        "domingos": [
+          { "horario": "6:00", "tags": ["cais"] },
+          { "horario": "9:30" },
+          { "horario": "12:50", "tags": ["cais"] },
+          { "horario": "14:50" },
+          { "horario": "16:50" },
+          { "horario": "18:50", "tags": ["cais"] }
+        ]
+      }
+    },
+    {
+      "linha": 9,
+      "nome": "Rebouças",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "6:00" },
+          { "horario": "7:00" },
+          { "horario": "8:00" },
+          { "horario": "9:00" },
+          { "horario": "10:00" },
+          { "horario": "11:00" },
+          { "horario": "12:00" },
+          { "horario": "13:00" },
+          { "horario": "14:00" },
+          { "horario": "15:00" },
+          { "horario": "15:50" },
+          { "horario": "16:45" },
+          { "horario": "17:40" },
+          { "horario": "18:40" },
+          { "horario": "20:30" },
+          { "horario": "22:00" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "6:00" },
+          { "horario": "7:00" },
+          { "horario": "8:00" },
+          { "horario": "10:00" },
+          { "horario": "11:00" },
+          { "horario": "12:00" },
+          { "horario": "13:00" },
+          { "horario": "14:00" },
+          { "horario": "15:00" },
+          { "horario": "16:30" },
+          { "horario": "18:00" },
+          { "horario": "19:30" }
+        ],
+        "domingos": [
+          { "horario": "7:30" },
+          { "horario": "10:30" },
+          { "horario": "11:50" },
+          { "horario": "13:50" },
+          { "horario": "15:50" },
+          { "horario": "17:50" }
+        ]
+      }
+    },
+    {
+      "linha": 10,
+      "nome": "São Benedito",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:40" },
+          { "horario": "6:45" },
+          { "horario": "7:50" },
+          { "horario": "8:55" },
+          { "horario": "10:00" },
+          { "horario": "11:05" },
+          { "horario": "12:10" },
+          { "horario": "13:15" },
+          { "horario": "14:20" },
+          { "horario": "15:25" },
+          { "horario": "16:30" },
+          { "horario": "17:35" },
+          { "horario": "18:40" },
+          { "horario": "19:45" },
+          { "horario": "21:00" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:40" },
+          { "horario": "6:45" },
+          { "horario": "7:50" },
+          { "horario": "8:55" },
+          { "horario": "10:00" },
+          { "horario": "11:05" },
+          { "horario": "12:10" },
+          { "horario": "13:15" },
+          { "horario": "14:20" },
+          { "horario": "15:50" },
+          { "horario": "16:55" },
+          { "horario": "18:00" },
+          { "horario": "19:05" }
+        ],
+        "domingos": [
+          { "horario": "7:10" },
+          { "horario": "9:20" },
+          { "horario": "11:30" },
+          { "horario": "13:40" },
+          { "horario": "15:50" },
+          { "horario": "18:00" }
+        ]
+      }
+    },
+    {
+      "linha": 11,
+      "nome": "Santana",
+      "horarios": {
+        "dias_uteis": [
+          { "horario": "5:45" },
+          { "horario": "6:45" },
+          { "horario": "7:45" },
+          { "horario": "8:45" },
+          { "horario": "9:45" },
+          { "horario": "10:45" },
+          { "horario": "11:45" },
+          { "horario": "12:50" },
+          { "horario": "13:45" },
+          { "horario": "14:45" },
+          { "horario": "15:45" },
+          { "horario": "16:45" },
+          { "horario": "17:45" },
+          { "horario": "18:45" },
+          { "horario": "19:45" },
+          { "horario": "21:00" },
+          { "horario": "23:20" }
+        ],
+        "sabados": [
+          { "horario": "5:45" },
+          { "horario": "6:45" },
+          { "horario": "7:45" },
+          { "horario": "8:45" },
+          { "horario": "9:45" },
+          { "horario": "10:45" },
+          { "horario": "11:45" },
+          { "horario": "12:45" },
+          { "horario": "14:15" },
+          { "horario": "16:25" },
+          { "horario": "17:30" },
+          { "horario": "18:40" },
+          { "horario": "19:50" }
+        ],
+        "domingos": [
+          { "horario": "8:15" },
+          { "horario": "10:25" },
+          { "horario": "12:35" },
+          { "horario": "14:45" },
+          { "horario": "16:55" },
+          { "horario": "19:05" }
+        ]
+      }
+    }
+  ]
+}
