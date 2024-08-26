@@ -1,10 +1,11 @@
 import { useState } from "react"
 import { itinerario } from "./data/itinerario.json"
+
 import BusLineSchedule from "./components/BusLineSchedule"
-import { useSwipeable } from "react-swipeable"
 import Legend from "./components/Legend"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import BottomNavBar from "./components/BottomNavBar"
 
 function App() {
   const [line, setLine] = useState(1)
@@ -19,29 +20,30 @@ function App() {
     else setLine((prevLine) => prevLine - 1)
   }
 
-  const swipes = useSwipeable({
-    onSwipedLeft: nextLine,
-    onSwipedRight: previousLine,
-  })
-
   const filteredArray = itinerario.filter((item) => item.linha == line)
-  const selectedItem = filteredArray[0]
+  const currentLine = filteredArray[0]
 
   return (
-    <div className="flex flex-col h-full bg-gradient-to-r from-slate-50 to-slate-100">
+    <div className="flex flex-col h-full bg-gradient-to-b from-zinc-900 to-zinc-950 text-white">
       <Header />
 
-      <main {...swipes} className="grow my-10">
+      <main className="grow my-10">
         <BusLineSchedule
           nextLine={nextLine}
           previousLine={previousLine}
-          {...selectedItem}
+          {...currentLine}
         />
       </main>
 
       <Legend />
 
       <Footer />
+
+      <BottomNavBar
+        currentLine={currentLine}
+        nextLine={nextLine}
+        previousLine={previousLine}
+      />
     </div>
   )
 }

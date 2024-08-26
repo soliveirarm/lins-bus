@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+
 function LegendItem({ icon, title }) {
   return (
     <div className="flex gap-2 items-center">
@@ -7,14 +9,9 @@ function LegendItem({ icon, title }) {
   )
 }
 
-LegendItem.propTypes = {
-  icon: String,
-  title: String,
-}
-
 function Legend() {
   return (
-    <section className="self-center flex flex-col gap-4 p-4">
+    <section className="self-center flex flex-col gap-4 p-4 mb-10">
       <h2 className="text-xl font-bold text-center">Legenda</h2>
 
       <LegendItem icon="fatec" title="Fatec" />
