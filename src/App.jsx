@@ -40,6 +40,7 @@ function App() {
       <LinesModal
         isHidden={isHidden}
         setIsHidden={setIsHidden}
+        line={line}
         setLine={setLine}
         itinerario={itinerario}
       />

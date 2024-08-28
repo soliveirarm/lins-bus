@@ -1,14 +1,10 @@
-import { useState } from "react"
 import { IoIosClose } from "react-icons/io"
 
 /* eslint-disable react/prop-types */
-function LinesModal({ itinerario, setLine, isHidden, setIsHidden }) {
-  const [selected, isSelected] = useState(1)
-
+function LinesModal({ itinerario, line, setLine, isHidden, setIsHidden }) {
   const hideLineMenu = () => setIsHidden(true)
   const handleClick = (line) => {
     setLine(line)
-    isSelected(line)
     hideLineMenu()
   }
   return (
@@ -26,7 +22,7 @@ function LinesModal({ itinerario, setLine, isHidden, setIsHidden }) {
             <span
               onClick={() => handleClick(item.linha)}
               className={`${
-                selected === item.linha ? "selected" : null
+                line === item.linha ? "selected" : null
               } line-button text-xl font-semibold py-3 px-4`}
               key={crypto.randomUUID()}
             >
