@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-black p-4 text-center mb-16">
+    <footer className="bg-black p-4 text-center">
       <p>
         Desenvolvido por{" "}
         <a

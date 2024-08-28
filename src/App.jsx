@@ -5,10 +5,11 @@ import BusLineSchedule from "./components/BusLineSchedule"
 import Legend from "./components/Legend"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import BottomNavBar from "./components/BottomNavBar"
+import LinesModal from "./components/LinesModal"
 
 function App() {
   const [line, setLine] = useState(1)
+  const [isHidden, setIsHidden] = useState(true)
 
   const nextLine = () => {
     if (line === 11) setLine(1)
@@ -32,18 +33,20 @@ function App() {
           nextLine={nextLine}
           previousLine={previousLine}
           {...currentLine}
+          openModal={() => setIsHidden(false)}
         />
       </main>
+
+      <LinesModal
+        isHidden={isHidden}
+        setIsHidden={setIsHidden}
+        setLine={setLine}
+        itinerario={itinerario}
+      />
 
       <Legend />
 
       <Footer />
-
-      <BottomNavBar
-        currentLine={currentLine}
-        nextLine={nextLine}
-        previousLine={previousLine}
-      />
     </div>
   )
 }
