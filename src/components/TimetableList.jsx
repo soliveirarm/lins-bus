@@ -1,15 +1,13 @@
-/* eslint-disable react/prop-types */
-
 function TimetableList({ title, day = [] }) {
   return (
     <div>
-      <h3 className="font-semibold text-lg mb-3 text-center text-zinc-300">
+      <h3 className="font-semibold text-lg mb-3 text-center text-zinc-900">
         {title}
       </h3>
       <ul className="flex flex-col gap-1 items-center">
         {day.map(({ horario, tags }) => (
           <li
-            className="relative flex flex-col py-2 rounded bg-custom-green/20 text-white shadow-md w-24 text-center cursor-pointer"
+            className="relative flex flex-col py-2 rounded bg-custom-green/30 border-2 border-custom-green/25 w-24 text-center cursor-pointer"
             key={horario}
           >
             <p>{horario}</p>

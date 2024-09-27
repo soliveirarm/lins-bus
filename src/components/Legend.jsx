@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-
 function LegendItem({ icon, title }) {
   return (
     <div className="flex gap-2 items-center">

@@ -1,4 +1,6 @@
 import { useState } from "react"
+import { useLocalStorage } from "@uidotdev/usehooks"
+
 import { itinerario } from "./data/itinerario.json"
 
 import BusLineSchedule from "./components/BusLineSchedule"
@@ -8,7 +10,7 @@ import Footer from "./components/Footer"
 import LinesModal from "./components/LinesModal"
 
 function App() {
-  const [line, setLine] = useState(1)
+  const [line, setLine] = useLocalStorage("line", 1)
   const [isHidden, setIsHidden] = useState(true)
 
   const nextLine = () => {
@@ -21,11 +23,10 @@ function App() {
     else setLine((prevLine) => prevLine - 1)
   }
 
-  const filteredArray = itinerario.filter((item) => item.linha == line)
-  const currentLine = filteredArray[0]
+  const [currentLine] = itinerario.filter((item) => item.linha == line)
 
   return (
-    <div className="flex flex-col h-full bg-gradient-to-b from-zinc-900 to-zinc-950 text-white">
+    <div className="flex flex-col h-full bg-gradient-to-b from-zinc-50 to-zinc-100">
       <Header />
 
       <main className="grow my-10">

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import TimetableList from "./TimetableList"
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io"
 import { useSwipeable } from "react-swipeable"
