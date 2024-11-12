@@ -8,4 +8,4 @@ _Site com o objetivo de catalogar o horário de todos os ônibus da cidade de Li
 
 ### Favicons:
 
-<div> Icons made by <a href="https://www.flaticon.com/authors/boris-farias" title="Boris farias"> Boris farias </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+<a href="https://www.flaticon.com/free-icons/travel" title="travel icons">Travel icons created by Hilmy Abiyyu A. - Flaticon</a>
