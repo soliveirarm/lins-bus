@@ -26,7 +26,7 @@ function App() {
   const [currentLine] = itinerario.filter((item) => item.linha == line)
 
   return (
-    <div className="flex flex-col h-full bg-gradient-to-b from-zinc-50 to-zinc-100">
+    <div className="flex flex-col h-full bg-dark text-white">
       <Header />
 
       <main className="grow my-10">

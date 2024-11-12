@@ -8,13 +8,14 @@ function LinesModal({ itinerario, line, setLine, isHidden, setIsHidden }) {
   }
   const smallClasses =
     "sm:h-auto sm:w-1/2 sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:border-2 sm:border-custom-green/80 sm:rounded-md"
+
   return (
     <div
       className={`${
-        isHidden ? "hidden" : null
-      } w-screen h-full fixed top-0 left-[10%] overflow-y-scroll ${smallClasses} `}
+        isHidden && "hidden"
+      } w-screen h-full fixed top-0 left-[10%] overflow-y-scroll ${smallClasses}`}
     >
-      <div className="relative bg-white h-screen sm:h-auto">
+      <div className="relative bg-dark h-screen sm:h-auto">
         <button
           onClick={hideLineMenu}
           className="absolute right-12 sm:right-6 pt-5"
@@ -26,7 +27,7 @@ function LinesModal({ itinerario, line, setLine, isHidden, setIsHidden }) {
             <span
               onClick={() => handleClick(linha)}
               className={`${
-                line === linha ? "selected" : null
+                line === linha && "selected"
               } line-button text-xl font-semibold py-3 px-4 cursor-pointer rounded`}
               key={i}
             >

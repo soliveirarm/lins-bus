@@ -18,5 +18,5 @@
 }
 
 .line-button.selected {
-  @apply bg-custom-green text-white;
+  @apply bg-custom-green text-dark;
 }
