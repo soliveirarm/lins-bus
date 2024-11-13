@@ -1,4 +1,4 @@
-function Legend() {
+export function Legend() {
   return (
     <section className="self-center flex flex-col gap-4 p-4 mb-10">
       <h2 className="text-xl font-bold text-center">Legenda</h2>
@@ -14,9 +14,11 @@ function Legend() {
 
 const LegendItem = ({ icon, title }) => (
   <div className="flex gap-2 items-center">
-    <img className="w-8" src={`/${icon}.svg`} alt={`Ícone ${icon}`} /> -
-    <p>{title}</p>
+    <img
+      className="w-8"
+      src={`special-lines/${icon}.svg`}
+      alt={`Ícone ${icon}`}
+    />{" "}
+    -<p>{title}</p>
   </div>
 )
-
-export default Legend

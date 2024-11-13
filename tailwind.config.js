@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "custom-green": "#73c78a",
-        dark: "#111111",
+        accent: "#73c78a",
+        "accent-darker": "#50b96d",
+        dark: "#2a2a2a",
       },
     },
   },

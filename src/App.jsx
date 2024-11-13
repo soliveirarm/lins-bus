@@ -3,13 +3,11 @@ import { useLocalStorage } from "@uidotdev/usehooks"
 
 import { itinerario } from "./data/itinerario.json"
 
-import BusLineSchedule from "./components/BusLineSchedule"
-import Legend from "./components/Legend"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import LinesModal from "./components/LinesModal"
+import { BusLines } from "./components/BusLines"
+import { Legend } from "./components/Legend"
+import { LinesModal } from "./components/LinesModal"
 
-function App() {
+export function App() {
   const [line, setLine] = useLocalStorage("line", 1)
   const [isHidden, setIsHidden] = useState(true)
 
@@ -30,7 +28,7 @@ function App() {
       <Header />
 
       <main className="grow my-10">
-        <BusLineSchedule
+        <BusLines
           nextLine={nextLine}
           previousLine={previousLine}
           {...currentLine}
@@ -53,4 +51,24 @@ function App() {
   )
 }
 
-export default App
+const Header = () => (
+  <header className="flex items-center gap-4 p-4 bg-accent-darker text-white">
+    <img className="w-8 text-white" src="/bus.svg" alt="Ônibus verde" />
+    <h1 className="font-bold text-2xl">Lins Bus</h1>
+  </header>
+)
+
+const Footer = () => (
+  <footer className="bg-[#222222] text-white p-4 text-center">
+    <p>
+      Desenvolvido por{" "}
+      <a
+        className="font-medium transition underline hover:opacity-80 text-accent"
+        target="_blank"
+        href="https://github.com/soliveirarm"
+      >
+        Sarah Oliveira
+      </a>
+    </p>
+  </footer>
+)
