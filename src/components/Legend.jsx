@@ -8,6 +8,7 @@ export function Legend() {
       <LegendItem icon="cais" title="Cais Clemente Ferreira" />
       <LegendItem icon="ventura" title="Residencial Ventura" />
       <LegendItem icon="bellagio" title="Residencial Bellagio" />
+      <LegendItem icon="himalaia" title="Residencial Himalaia" />
     </section>
   )
 }

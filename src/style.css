@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #73c78a;
+  --color-accent-darker: #50b96d;
+  --color-dark: #121212;
+}
+
+* {
+  font-family: "Lexend", sans-serif;
+  box-sizing: border-box;
+}
+
+.line-button.selected {
+  @apply bg-dark text-accent;
+}
+
+button {
+  cursor: pointer;
+}

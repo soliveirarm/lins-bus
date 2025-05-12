@@ -1,5 +1,9 @@
 import { BusLineColumn } from "./BusLineColumn"
-import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io"
+import {
+  LuMinus,
+  LuChevronLeftCircle,
+  LuChevronRightCircle,
+} from "react-icons/lu"
 import { useSwipeable } from "react-swipeable"
 
 export function BusLines({
@@ -19,13 +23,13 @@ export function BusLines({
 
   return (
     <div className="flex flex-col items-center gap-4 p-4">
-      <span className="w-full sm:w-auto flex justify-between items-center gap-4">
+      <span className="w-full sm:w-auto flex justify-around items-center gap-4">
         <PreviousLine onClick={previousLine} />
-        <OpenModal onClick={openModal} line={linha} name={nome} />
+        <BusLinesModal onClick={openModal} line={linha} name={nome} />
         <NextLine onClick={nextLine} />
       </span>
 
-      <span {...swipeable} className="flex gap-4">
+      <span {...swipeable} className="flex gap-6">
         <BusLineColumn title="Dias Úteis" day={dias_uteis} />
         <BusLineColumn title="Sábados" day={sabados} />
         {domingos && <BusLineColumn title="Domingos" day={domingos} />}
@@ -36,20 +40,20 @@ export function BusLines({
 
 const PreviousLine = ({ onClick }) => (
   <button className="text-2xl" onClick={onClick}>
-    <IoIosArrowBack />
+    <LuChevronLeftCircle />
   </button>
 )
 
-const OpenModal = ({ onClick, line, name }) => (
-  <button onClick={onClick} className=" sm:w-96 text-center">
-    <h2 className="text-xl sm:text-2xl font-bold">
-      Linha {line}: {name}
+const BusLinesModal = ({ onClick, line, name }) => (
+  <button onClick={onClick} className="sm:w-96">
+    <h2 className="text-2xl font-bold flex justify-center items-center gap-2">
+      <span className="text-accent">{line}</span> <LuMinus /> {name}
     </h2>
   </button>
 )
 
 const NextLine = ({ onClick }) => (
   <button className="text-2xl" onClick={onClick}>
-    <IoIosArrowForward />
+    <LuChevronRightCircle />
   </button>
 )

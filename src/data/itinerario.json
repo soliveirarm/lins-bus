@@ -198,7 +198,7 @@
       "horarios": {
         "dias_uteis": [
           { "horario": "5:40" },
-          { "horario": "6:40", "tags": ["fatec"] },
+          { "horario": "6:40", "tags": ["fatec", "himalaia"] },
           { "horario": "7:50" },
           { "horario": "9:05" },
           { "horario": "10:20" },
@@ -208,7 +208,7 @@
           { "horario": "15:00" },
           { "horario": "16:05" },
           { "horario": "17:10" },
-          { "horario": "18:15", "tags": ["fatec"] },
+          { "horario": "18:15", "tags": ["fatec", "himalaia"] },
           { "horario": "19:20" },
           { "horario": "20:25" },
           { "horario": "21:30" },
