@@ -44,7 +44,7 @@ export default defineConfig({
         ],
         start_url: "/",
         display: "fullscreen",
-        background_color: "#2a2a2a",
+        background_color: "#121212",
         theme_color: "#73c78a",
         description:
           "Lista de horários de todas as linhas de ônibus em Lins, São Paulo.",
